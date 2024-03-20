@@ -1,0 +1,23 @@
+.greenting-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+}
+
+.greenting-box p {
+  margin: 10px 0 30px;
+}
+
+.greenting-box > div {
+  padding: 40px;
+}
+
+.answer-list {
+  margin: 25px 0;
+}
+
+.answer-list ul {
+  margin-top: 5px;
+}

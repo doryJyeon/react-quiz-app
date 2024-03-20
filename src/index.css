@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh !important;
+  background-color: lavender !important;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+ul, li {
+  list-style: none;
+}
