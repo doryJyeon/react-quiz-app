@@ -49,9 +49,8 @@ function App() {
       correctAnswer: questions[questionNumber]?.correct_answer
     };
     setUserAnswer((previous) => [...previous, answerObject]);
-  }
-
-  const nextQuestison = (): void => {
+    
+    // 다음 문제로
     const nextQuestion = questionNumber + 1;
     totalQuestions === nextQuestion
     ? setGameOver(true)
@@ -117,21 +116,6 @@ function App() {
             checkAnswer={checkAnswer}
             totalQuestions={totalQuestions}
             questionNumber={questionNumber}
-          />
-
-          <AppButton
-            disabled={
-              userAnswer.length === questionNumber + 1 &&
-              questionNumber !== totalQuestions
-              ? false
-              : true
-            }
-            colorScheme='purple'
-            variant='solid'
-            onClick={nextQuestison}
-            value='Next Question'
-            className="next-button"
-            width="full"
           />
         </Box>
       )}
