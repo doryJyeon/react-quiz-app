@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# React quiz app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[사이트 이동](https://jyeon-quiz.netlify.app/)
 
-Currently, two official plugins are available:
+React18 + TS<br />
+Pc / Tablet / Mobile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 구현 화면
+![tablet](https://github.com/user-attachments/assets/ded1af1e-9269-4d7a-a026-679cf8e3921f)<br />
+영문 퀴즈 10개가 주어집니다.<br />
+답으로 true / false 중 하나를 선택하며, 10개를 모두 풀면 결과 화면에서 내가 선택한 답과 해당 문제의 정답을 확인할 수 있습니다.
