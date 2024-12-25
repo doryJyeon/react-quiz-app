@@ -1,9 +1,11 @@
 # React quiz app
 
-[사이트 이동](https://jyeon-quiz.netlify.app/)
+[Quiz 사이트 이동](https://jyeon-quiz.netlify.app/)
 
-React18 + TS<br />
-Pc / Tablet / Mobile
+React18 + TS  
+Pc / Tablet / Mobile  
+
+[OPEN TRIVIA DATEBASE](https://opentdb.com/) API를 이용했습니다.
 
 ## 구현 화면
 ![tablet](https://github.com/user-attachments/assets/ded1af1e-9269-4d7a-a026-679cf8e3921f)<br />
