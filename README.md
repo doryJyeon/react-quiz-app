@@ -7,6 +7,16 @@ Pc / Tablet / Mobile
 
 [OPEN TRIVIA DATEBASE](https://opentdb.com/) API를 이용했습니다.
 
+## 실행 방법
+```
+// npm install
+npm i
+npm run dev
+
+// localhost 접속
+localhost:5173
+```
+
 ## 구현 화면
 ![tablet](https://github.com/user-attachments/assets/ded1af1e-9269-4d7a-a026-679cf8e3921f)<br />
 영문 퀴즈 10개가 주어집니다.<br />
